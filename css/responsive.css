@@ -1,0 +1,414 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* CSS */
+  header {
+    background: url(../img/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 65vh;
+  }
+  .navbar-nav {
+    padding-top: 25px !important;
+  }
+  .navbar-toggler {
+    border: 1px solid white;
+  }
+
+  .banner-section {
+    text-align: center;
+    padding: 50px 15px;
+  }
+  .banner-section .cu-hight {
+    height: 60vh !important;
+  }
+  .banner-section .banner-inner h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .btns a {
+    padding: 8px 17px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .banner-section .banner-inner p {
+    width: 100%;
+    padding: 0px 18px;
+  }
+  .feature-section {
+    padding: 50px 15px 10px;
+  }
+  .feature-section .i-box {
+    margin-bottom: 50px;
+  }
+  .feature-section .i-box p {
+    padding: 0px 69px;
+  }
+  .underline {
+    width: 10%;
+    height: 3px;
+    background: #008ed6;
+    margin: 30px auto 0px;
+    transition: 0.5s ease-in;
+  }
+  .feature-section:hover .underline {
+    width: 20%;
+    transition: 0.5s ease-in;
+  }
+  .beautiful {
+    width: 100%;
+    padding: 50px 15px;
+  }
+  .beautiful .mobile img {
+    width: 100%;
+    height: 63%;
+  }
+  .beautiful p {
+    width: 100%;
+  }
+  .super {
+    width: 100%;
+    padding: 70px 15px 50px;
+    background: #f2f2f2;
+  }
+  .super .content2 p {
+    width: 100%;
+  }
+  .super .mobile2 img {
+    width: 100%;
+    height: 63%;
+  }
+  .super .content2 {
+    margin-top: 0px;
+  }
+  .super:hover .underlne3 {
+    width: 25%;
+    transition: 0.5s ease-in;
+  }
+  .slider-section {
+    width: 100%;
+    padding: 50px 15px;
+    background: url(../img/test.png) center center no-repeat;
+    background-size: cover;
+  }
+  .owl-carousel .item p {
+    color: white;
+    font-style: italic;
+    width: 97%;
+    font-weight: 200;
+  }
+  .slider-section:hover .underline {
+    width: 20%;
+    transition: 0.5s ease-in;
+  }
+  .cal-to-action {
+    width: 100%;
+    padding: 50px 15px;
+    background: #15141a;
+  }
+
+  .cal-to-action h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .cal-to-action .btns {
+    text-align: center;
+  }
+  .cal-to-action .btns .btn-primary {
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    margin-right: 0px;
+    transition: 0.7s;
+  }
+  .price-section {
+    padding: 50px 50px 10px;
+  }
+  .price-section .pc-inner {
+    margin-bottom: 40px;
+  }
+  .price-section:hover .underline {
+    width: 20%;
+  }
+
+  .contact-section {
+    width: 100%;
+    padding: 50px 15px;
+    background: #ededed;
+  }
+  .contact-section .contact-inner {
+    margin-bottom: 40px;
+  }
+  .contact-section.underline {
+    width: 5%;
+    height: 3px;
+    background: #008ed6;
+    margin: 30px auto 0px;
+    transition: 0.5s ease-in;
+  }
+  .contact-section:hover .underline {
+    width: 15%;
+  }
+  .contact-section form {
+    background: #15141a;
+    padding: 50px 22px;
+    width: 90%;
+    margin: 80px auto -110px;
+    position: relative;
+  }
+  .contact-section form .form-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-section form .left-frm {
+    flex-basis: 50%;
+    margin-right: 0px;
+  }
+  .contact-section form .rigth-frm {
+    flex-basis: 50%;
+    margin-left: 0px;
+  }
+  .contact-section form input {
+    padding: 12px 8px;
+    background-color: transparent;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  /* Global Css For MObile Start */
+
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  /* Global Css For MObile End */
+  header {
+    background: url(../img/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 65vh;
+  }
+  .navbar-nav {
+    padding-top: 25px !important;
+  }
+  .navbar-toggler {
+    border: 1px solid white;
+  }
+
+  .banner-section {
+    text-align: center;
+    padding: 50px 15px;
+  }
+  .banner-section .cu-hight {
+    height: 60vh !important;
+  }
+  .banner-section .banner-inner h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  .btns a {
+    padding: 8px 17px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  .banner-section .banner-inner p {
+    width: 100%;
+    padding: 0px 18px;
+  }
+  .feature-section {
+    padding: 50px 15px 10px;
+  }
+  .feature-section .i-box {
+    margin-bottom: 50px;
+  }
+  .feature-section .i-box p {
+    padding: 0px 69px;
+  }
+  .underline {
+    width: 10%;
+    height: 3px;
+    background: #008ed6;
+    margin: 30px auto 0px;
+    transition: 0.5s ease-in;
+  }
+  .feature-section:hover .underline {
+    width: 30%;
+    transition: 0.5s ease-in;
+  }
+  .beautiful {
+    width: 100%;
+    padding: 50px 15px;
+  }
+  .beautiful .mobile img {
+    width: 100%;
+  }
+  .beautiful p {
+    width: 100%;
+  }
+  .super {
+    width: 100%;
+    padding: 70px 15px 50px;
+    background: #f2f2f2;
+  }
+  .super .content2 p {
+    width: 100%;
+  }
+  .super .mobile2 img {
+    width: 100%;
+  }
+  .super .content2 {
+    margin-top: 0px;
+  }
+  .super:hover .underlne3 {
+    width: 25%;
+    transition: 0.5s ease-in;
+  }
+  .slider-section {
+    width: 100%;
+    padding: 50px 15px;
+    background: url(../img/test.png) center center no-repeat;
+    background-size: cover;
+  }
+  .owl-carousel .item p {
+    color: white;
+    font-style: italic;
+    width: 97%;
+    font-weight: 200;
+  }
+  .slider-section:hover .underline {
+    width: 30%;
+    transition: 0.5s ease-in;
+  }
+  .cal-to-action {
+    width: 100%;
+    padding: 50px 15px;
+    background: #15141a;
+  }
+
+  .cal-to-action h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .cal-to-action .btns {
+    text-align: center;
+  }
+  .cal-to-action .btns .btn-primary {
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    margin-right: 0px;
+    transition: 0.7s;
+  }
+  .price-section {
+    padding: 50px 50px 10px;
+  }
+  .price-section .pc-inner {
+    margin-bottom: 40px;
+  }
+  .price-section:hover .underline {
+    width: 30%;
+  }
+
+  .contact-section {
+    width: 100%;
+    padding: 50px 15px;
+    background: #ededed;
+  }
+  .contact-section .contact-inner {
+    margin-bottom: 40px;
+  }
+  .contact-section.underline {
+    width: 5%;
+    height: 3px;
+    background: #008ed6;
+    margin: 30px auto 0px;
+    transition: 0.5s ease-in;
+  }
+  .contact-section:hover .underline {
+    width: 20%;
+  }
+  .contact-section form {
+    background: #15141a;
+    padding: 50px 22px;
+    width: 90%;
+    margin: 80px auto -110px;
+    position: relative;
+  }
+  .contact-section form .form-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-section form .left-frm {
+    flex-basis: 50%;
+    margin-right: 0px;
+  }
+  .contact-section form .rigth-frm {
+    flex-basis: 50%;
+    margin-left: 0px;
+  }
+  .contact-section form input {
+    padding: 12px 8px;
+    background-color: transparent;
+  }
+}
